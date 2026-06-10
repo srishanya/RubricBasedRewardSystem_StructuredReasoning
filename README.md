@@ -1,6 +1,8 @@
 # RubricBasedRewardSystem_StructuredReasoning
 built a reproducible, highly efficient pipeline to train Gemma-2–2B-IT to produce verified, structured reasoning traces wrapped in clean syntax (&lt;reasoning>...&lt;/reasoning>&lt;answer>...&lt;/answer>).
 
+### check out the Blog: https://medium.com/@srishanya2005/teaching-gemma-to-show-its-work-structured-reasoning-with-rubric-based-rewards-dd3eebb4686e
+
 # WHAT IS THIS?
 This notebook fine-tunes Gemma-2-2B-IT to reliably produce structured outputs in the form: <reasoning>...</reasoning><answer>...</answer> The goal is to improve format compliance, answer correctness, and overall response quality using a two-stage pipeline that is reproducible on a single Kaggle TPU v5e-8 session (with checkpointing for multi-session runs).
 
